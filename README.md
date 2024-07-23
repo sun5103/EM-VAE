@@ -9,6 +9,12 @@ Additionally, we want to focus on the stability and reconstruction quality of th
 
 This image is from a VAE trained on the Fashion MNIST dataset. From top to bottom, it shows the labels, VAE, and EM-VAE. Visually, it appears that the EM-VAE has slightly higher accuracy.
 
+VAE MSE: 0.0783
+VAE PSNR: 11.6534
+EM VAE MSE: 0.0636
+EM VAE PSNR: 12.7280
+
+As these numbers indicate, the EM VAE outperforms the standard VAE in both MSE and PSNR metrics, demonstrating higher reconstruction quality and lower error rates. This suggests that the Expectation-Maximization method enhances the performance of the Variational Autoencoder.
 
 
 
